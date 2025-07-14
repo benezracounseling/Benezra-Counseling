@@ -39,6 +39,12 @@
             75% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
+        .fa-check-circle {
+            transition: transform 0.3s ease;
+        }
+        .fa-check-circle:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body class="font-sans antialiased text-gray-900">
@@ -86,25 +92,29 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
             <div class="md:flex items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold text-cyan-900 mb-6">Healing Starts Here</h1>
-                    <p class="text-lg text-gray-700 mb-8">Compassionate therapy to help you release what's weighing heavy and rediscover your authentic self.</p>
+                    <h1 class="text-4xl md:text-5xl font-bold text-cyan-900 mb-6">Find Peace & Clarity in Your Life</h1>
+                    <p class="text-lg text-gray-700 mb-6">Compassionate therapy to help you release what's weighing heavy and rediscover your authentic self. I specialize in helping individuals:</p>
+                    <ul class="text-gray-700 mb-8 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-check-circle text-cyan-600 mt-1 mr-2"></i> Overcome anxiety and depression</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-cyan-600 mt-1 mr-2"></i> Navigate life transitions and relationships</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-cyan-600 mt-1 mr-2"></i> Heal from past traumas</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-cyan-600 mt-1 mr-2"></i> Find meaning and purpose</li>
+                    </ul>
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                         <a href="https://www.psychologytoday.com/us/therapists/zachary-hunter-benezra-los-angeles-ca/1525761" target="_blank" class="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-md text-center font-medium transition duration-300">
-                            Schedule a Session
+                            Schedule a Free Consultation
                         </a>
                         <a href="#contact" class="bg-white hover:bg-gray-100 text-cyan-600 px-6 py-3 rounded-md text-center font-medium border border-cyan-600 transition duration-300">
-                            Contact Me
+                            Learn More
                         </a>
                     </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <div class="relative w-64 h-64 md:w-80 md:h-80">
-                        <div class="absolute inset-0 bg-cyan-100 rounded-full opacity-20"></div>
-                        <div class="absolute inset-4 bg-cyan-200 rounded-full opacity-30"></div>
-                        <div class="absolute inset-8 bg-cyan-300 rounded-full opacity-40"></div>
-                        <div class="absolute inset-12 bg-white rounded-full flex items-center justify-center shadow-lg floating">
-                            <i class="fas fa-heart text-cyan-600 text-6xl heart-beat"></i>
-                        </div>
+                    <div class="relative w-full max-w-md">
+                        <img src="8a277ae7-8c69-486a-b429-90ba0a557004.jpeg" 
+                             alt="Therapist office with comfortable seating" 
+                             class="rounded-lg shadow-xl floating"
+                             style="max-height: 500px; object-fit: cover;">
                     </div>
                 </div>
             </div>
